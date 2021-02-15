@@ -13,3 +13,9 @@ $(document).ready(function ()//Encouraged when using jQuery.
     /* Function Calls. */
 
 });
+
+/*
+    Learning the GraphQL API
+    Need the Repository object
+    Fields needed from the object is- description, name, openGraphImageUrl, url? or deployments->nodes->?
+*/

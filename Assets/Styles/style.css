@@ -1,5 +1,48 @@
+/*
+    Notes to self.
+
+    Portfolio examples:
+    Matthew Williams
+    Sean Halpin
+    Josue Espinosa
+    Pavel Huza
+    Taylor Ho
+
+    ui gradients:
+    Memariani
+    Bright Vault
+    Red Sunset
+*/
+
+/* Full Application */
+body
+{
+    background-image: url("../Images/background.png");
+}
+
 /* Header. */
 
 /* Main. */
+.container
+{
+    background-color: white;
+}
 
 /* Footer. */
+footer
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 0px;
+    background-color: white;
+    text-align: center;
+}
+
+/* Testing */
+
+/* *
+{
+    border: solid 1px red;
+} */
