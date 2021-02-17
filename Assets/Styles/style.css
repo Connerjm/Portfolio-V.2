@@ -12,6 +12,11 @@
     Memariani
     Bright Vault
     Red Sunset
+
+    colors:
+    #aa4b6b
+    #6b6b83
+    #3b8d99
 */
 
 /* Full Application */
@@ -20,9 +25,15 @@ body
     background-image: url("../Images/background.png");
 }
 
+header, footer, h1, h3
+{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Header. */
 header
 {
+    background-image: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
     border-bottom: solid 2px black;
 }
 
@@ -36,6 +47,17 @@ header
     background-color: white;
 }
 
+#profile-image
+{
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+p
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Footer. */
 footer
 {
@@ -45,8 +67,9 @@ footer
     width: 100%;
     border-top: solid 2px black;
     padding: 12px 0px;
-    background-color: white;
+    background-image: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
     text-align: center;
+    color: white;
 }
 
 /* Testing */
