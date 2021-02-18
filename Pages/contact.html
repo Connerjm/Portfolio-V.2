@@ -51,6 +51,30 @@
         <div class="container">
             <h1>Contact Me</h1>
             <hr>
+            <form>
+                <div class="form-group">
+                    <label for="nameInput">Name</label>
+                    <input type="email" class="form-control" id="nameInput">
+                </div>
+                <div class="form-group">
+                    <label for="emailInput">Email</label>
+                    <input type="email" class="form-control" id="emailInput">
+                </div>
+                <div class="form-group">
+                    <label for="messageInput">Message</label>
+                    <textarea class="form-control" id="messageInput" rows="3"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-dark" onclick="popup()">Submit</button>
+
+                <!-- Added a little popup to alert the user that the form doesn't actually do anything. -->
+                <script>
+                    function popup()
+                    {
+                        alert("Don't worry. It doesn't actually save any info!");
+                    }
+                </script>
+            </form>
         </div>
     </main>
 
