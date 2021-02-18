@@ -23,6 +23,7 @@
 body
 {
     background-image: url("../Images/background.png");
+    padding-bottom: 60px;
 }
 
 header, footer, h1, h3
@@ -57,6 +58,13 @@ header
 p
 {
     font-family: 'Montserrat', sans-serif;
+}
+
+.project-card
+{
+    width: 300px;
+    border: solid 1px black;
+    margin-bottom: 25px;
 }
 
 /* Footer. */
